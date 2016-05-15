@@ -1,0 +1,8 @@
+http://app.xiaomi.com/
+http://app.xiaomi.com/category/25
+http://app.xiaomi.com/category/7
+http://app.xiaomi.com/category/8
+http://app.xiaomi.com/category/9
+http://app.xiaomi.com/detail/1122
+http://app.xiaomi.com/detail/68730
+http://dev.xiaomi.com/doc/?page_id=2095

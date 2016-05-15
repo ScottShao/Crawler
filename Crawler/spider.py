@@ -1,8 +1,10 @@
-from urllib.request import Request, urlopen
-from link_finder import LinkFinder
 import threading
+from urllib.request import Request, urlopen
+
 from general import *
-from domain import *
+from link_finder import LinkFinder
+
+from Crawler.domain import *
 
 
 class Spider:

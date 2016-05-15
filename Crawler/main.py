@@ -1,8 +1,10 @@
 import threading
-from spider import Spider
 from queue import Queue
-from general import *
+
 from domain import *
+from general import *
+
+from Crawler.spider import Spider
 
 PROJECT_NAME = 'thenewbost'
 HOME_PAGE = 'http://app.xiaomi.com/'
