@@ -11,7 +11,7 @@ mem_bytes_size = 0
 with open('words2.txt', 'r') as file:
     for line in file:
         mem_bytes_size += len(line)
-        if bf.contains(line):
+        if line in bf:
             error += 1
         bf.add(line)
 
@@ -29,7 +29,7 @@ mem_bytes_size = 0
 with open('words.txt', 'r') as file:
     for line in file:
         mem_bytes_size += len(line)
-        if bf.contains(line):
+        if line in bf:
             error += 1
         bf.add(line)
 print('file: words1.txt, number of words: ' + str(num_lines) + ', size of bloom filter:' + str(math.floor(bf.bit_size / 8 / 1024)) +
