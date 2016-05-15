@@ -3,7 +3,7 @@ from bitarray import bitarray
 import math
 
 
-class BloomFilter:
+class BloomFilter(object):
 
     def __init__(self, capacity=100, error_rate=0.01):
         if not (0 < error_rate < 1):
