@@ -4,7 +4,7 @@ from queue import Queue
 from domain import *
 from general import *
 
-from Crawler.spider import Spider
+from crawler.spider import Spider
 
 PROJECT_NAME = 'thenewbost'
 HOME_PAGE = 'http://app.xiaomi.com/'

@@ -4,7 +4,7 @@ from urllib.request import Request, urlopen
 from general import *
 from link_finder import LinkFinder
 
-from Crawler.domain import *
+from crawler.domain import *
 
 
 class Spider:
